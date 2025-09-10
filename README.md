@@ -24,20 +24,15 @@ LSTM was chosen because it captures long-term dependencies and temporal patterns
 ## 📂 Project Structure
 ├── main.py # Entry point to run the project
 ├── data
-
 │ ├── dataset.py # Custom dataset
 │ └── data_preprocessing.py # prepares sequences for training\
-
 ├── utils
 │ └── seed.py # Ensures reproducibility by setting random seeds
 ├── training
-
 │ └── training.py # Handles model training, validation, and saving
 ├── models
-
 │ └── model.py # Defines the LSTM architecture
 ├── results
-
 │ ├── visualizations.py # Plots predictions
 
 │ └── evaluation.py # Evaluates the model’s performance
