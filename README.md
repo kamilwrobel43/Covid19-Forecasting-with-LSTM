@@ -16,7 +16,7 @@ For the prediction, we used an **LSTM (Long Short-Term Memory)** neural network,
 ---
 
 ## 🧠 Model
-We used an **LSTM** neural network implemented in **PyTorch** (or TensorFlow/Keras, depending on your implementation).  
+We used an **LSTM** neural network implemented in **PyTorch**.  
 LSTM was chosen because it captures long-term dependencies and temporal patterns effectively, which is crucial for time series forecasting.
 
 ---
@@ -24,8 +24,8 @@ LSTM was chosen because it captures long-term dependencies and temporal patterns
 ## 📂 Project Structure
 ├── main.py # Entry point to run the project
 ├── data
-│ ├── dataset.py # Loads and manages datasets
-│ └── data_preprocessing.py # Cleans and prepares data for training
+│ ├── dataset.py # Custom dataset
+│ └── data_preprocessing.py # prepares sequences for training
 ├── utils
 │ └── seed.py # Ensures reproducibility by setting random seeds
 ├── training
@@ -33,6 +33,6 @@ LSTM was chosen because it captures long-term dependencies and temporal patterns
 ├── models
 │ └── model.py # Defines the LSTM architecture
 ├── results
-│ ├── visualizations.py # Generates plots and charts for results
+│ ├── visualizations.py # Plots predictions 
 │ └── evaluation.py # Evaluates the model’s performance
 └── README.md
